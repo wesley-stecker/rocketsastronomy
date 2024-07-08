@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+body{
+    background-color: #01204E;
+    text-align: center;
+    height: auto;
+}
+
+
+
+#logo {
+    width: 80px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+nav {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    background-color:#028391;
+}
+
+nav a {
+    text-align: center;
+    justify-content: center;
+    justify-self: center;
+    justify-items: center;
+    color: #F6DCAC;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+nav a:hover {
+    background-color: #01204E;
+    color: #FEAE6F;
+}
+
+#hero{
+    width: 100%;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    display: grid;
+}
+
+#heroimg {
+    width: 100%;
+    height: 1000px;
+    object-fit: cover;
+    display: grid;
+    grid-column: 1/4;
+    grid-row: 1/4;
+    margin: auto auto;
+}
+
+#herotxt {
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin: auto auto;
+    color: #FEAE6F;
+    font-family: 'Inter', sans-serif;
+}
+
+h2 {
+    color: #F6DCAC;
+    margin: 50px;
+    font-family: Lato, Helvetica, sans-serif;
+}
+
+#cards {
+    grid-template-columns: 1fr 2fr 1fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    display: grid;
+    margin: auto auto;
+    height: 1500px;
+    
+}
+
+#astronomycard {
+    grid-column: 2/3;
+    display: grid;
+    margin-top: 100px;
+}
+
+#astronomycard img {
+    width: 1000px;
+    height: 1000px;
+    object-fit: cover;
+    display: grid;
+    grid-row: 1/4;
+    grid-column: 2/3;
+}
+
+#astronomycard a {
+    grid-row: 2/3;
+    grid-column: 2/3;
+    display: grid;
+    margin: auto auto;
+    color: #F6DCAC;
+    text-decoration: none;
+    font-family: Lato, Helvetica, sans-serif;
+    font-size: x-large;
+}
+
+#astronomycard a:hover {
+    background-color: #01204E;
+    color: #FEAE6F;
+}
+
+#rocketrycard {
+    grid-column: 4/5;
+    display: grid;
+    margin-top: 100px;
+}
+
+#rocketrycard img {
+    width: 1000px;
+    height: 1000px;
+    object-fit: cover;
+    display: grid;
+    grid-row: 1/4;
+    grid-column: 2/3;
+}
+
+#rocketrycard a {
+    grid-row: 2/3;
+    grid-column: 2/3;
+    display: grid;
+    margin: auto auto;
+    color: #F6DCAC;
+    text-decoration: none;
+    font-family: Lato, Helvetica, sans-serif;
+    font-size: x-large;
+}
+
+#rocketrycard a:hover {
+    background-color: #01204E;
+    color: #FEAE6F;
+}
+
+footer {
+    background-color: #028391;
+}
+
+footer a {
+    color: #F6DCAC;
+    text-decoration: none;
+    font-size: x-large;
+}
+
+footer a:hover {
+    color: #FEAE6F;
+}
