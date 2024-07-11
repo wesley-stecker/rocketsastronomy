@@ -208,6 +208,49 @@ h2 {
     color: #FEAE6F;
 }
 
+#maincontent {
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+#section1 {
+    display: grid;
+    grid-row: 1/2;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+}
+
+#section1 img {
+    display: grid;
+    grid-column: 1/2;
+}
+
+#section1 h3 {
+    display: grid;
+    grid-column: 3/4;
+}
+
+#section2 {
+    display: grid;
+    grid-row: 2/3;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+}
+
+#section2 img {
+    display: grid;
+    grid-column: 1/2;
+    width: 75%;
+}
+
+#section2 h3 {
+    display: grid;
+    grid-column: 3/4;
+}
+
 footer {
     background-color: #028391;
 }
