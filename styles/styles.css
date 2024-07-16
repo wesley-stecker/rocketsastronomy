@@ -208,47 +208,99 @@ h2 {
     color: #FEAE6F;
 }
 
-#maincontent {
-    display: grid;
-    grid-template-columns: 2fr 1fr 2fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-}
 
 #section1 {
-    display: grid;
-    grid-row: 1/2;
     margin-top: 10px;
     margin-bottom: 20px;
-    margin-left: 100px;
+    margin-left: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
 }
 
 #section1 img {
     display: grid;
-    grid-column: 1/2;
+    justify-content: center;
+    justify-self: center;
+    width: 800px;
 }
 
-#section1 h3 {
-    display: grid;
-    grid-column: 3/4;
+.image1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
+
+.image2 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.image3 {
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+
+.section1text{
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    text-align: center;
+    width: 800px;
+    color: #F6DCAC;
+}
+
+.section1text1{
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    text-align: center;
+    width: 800px;
+    color: #F6DCAC;
+}
+
 
 #section2 {
     display: grid;
-    grid-row: 2/3;
     margin-top: 20px;
     margin-bottom: 20px;
-    margin-left: 100px;
+    margin-left: 50px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
 }
 
 #section2 img {
     display: grid;
     grid-column: 1/2;
-    width: 75%;
+    justify-content: center;
+    justify-self: center;
+    width: 800px;
 }
 
-#section2 h3 {
+.section2text{
     display: grid;
-    grid-column: 3/4;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    text-align: center;
+    width: 800px;
+    color: #F6DCAC;
+}
+
+.section2text1{
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    text-align: center;
+    width: 800px;
+    color: #F6DCAC;
+}
+
+.section2text2{
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 3/4;
+    text-align: center;
+    width: 800px;
+    color: #F6DCAC;
 }
 
 footer {
